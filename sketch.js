@@ -55,7 +55,7 @@ function draw() {
  
 }
 function keyPressed(){
-	if (keyCode === DOWN_ARROW){
+	if (keyCode === 32){
 
 		Body.setStatic(package1,false);
 	}	
