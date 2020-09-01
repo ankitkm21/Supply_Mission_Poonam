@@ -55,9 +55,9 @@ function draw() {
  
 }
 function keyPressed(){
-	if (keyCode === "32"){
+	if (keyCode === SPACE){
 
-		Body.setStatic(package1,false);
+		Body.setStatic(Package,false);
 	}	
 }
 
